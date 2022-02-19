@@ -1,0 +1,54 @@
+﻿<Window x:Class="WpfGraphGame.LevelConstructor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfGraphGame"
+        mc:Ignorable="d"
+        Title="LevelConstructor" Height="750" Width="360">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Name="ButtonAddCity" Content="Добавить город" Grid.Row="0" Grid.Column="0"
+                Click="ButtonAddCity_Click"></Button>
+        <Button Name="ButtonCreateCity" Content="Изменить город" Grid.Row="0" Grid.Column="1"
+                Click="ButtonCreateCity_Click"></Button>
+        <Button Name="ButtonDeleteCity" Content="Удалить город" Grid.Row="1" Grid.Column="1"
+                Click="ButtonDeleteCity_Click"></Button>
+
+
+        <Button Name="ButtonAddRoad" Content="Добавить дорогу" Grid.Row="0" Grid.Column="2"
+                Click="ButtonAddRoad_Click"></Button>
+        <Button Name="ButtonCreateRoad" Content="Изменить дорогу" Grid.Row="0" Grid.Column="3"
+                Click="ButtonCreateRoad_Click"></Button>
+        <Button Name="ButtonDeleteRoad" Content="Удалить дорогу" Grid.Row="1" Grid.Column="3"
+                Click="ButtonDeleteRoad_Click"></Button>
+
+        <Button Name="ButtonCreateTransport" Content="Изменить транспорт" Grid.Row="0" Grid.Column="4"
+                Click="ButtonCreateTransport_Click"></Button>
+
+        <Button Name="ButtonSaveLevelJson" Content="Сохранить уровень(json)" Grid.Row="2" Grid.Column="0"
+                Click="ButtonSaveLevelJson_Click"></Button>
+
+        <Button Name="ButtonLoadLevelJson" Content="Загрузить уровень(json)" Grid.Row="2" Grid.Column="1"
+                Click="ButtonLoadLevelJson_Click"></Button>
+
+        <Canvas Name="CanvasMain" Grid.Row="3" Grid.ColumnSpan="5"></Canvas>
+        
+    </Grid>
+    
+</Window>

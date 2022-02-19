@@ -1,0 +1,17 @@
+/ClassLibraryGraphGame/bin/
+/ClassLibraryGraphGame/obj/
+/ClassLibraryGraphGameJSON/bin/
+/ClassLibraryGraphGameJSON/obj/
+/ClassLibraryParsingGraphGame/bin/
+/ClassLibraryParsingGraphGame/obj/
+/XamarinGameGraph/XamarinGameGraph.Android/obj/
+/XamarinGameGraph/XamarinGameGraph.Android/bin/
+/XamarinGameGraph/XamarinGameGraph/obj
+/XamarinGameGraph/XamarinGameGraph/bin/
+/StandardGraphGame/obj/
+/StandardGraphGameJSON/obj/
+/WpfGraphGame/bin/
+/StandardEngineDraw/obj/
+obj/
+bin/
+/packages/
